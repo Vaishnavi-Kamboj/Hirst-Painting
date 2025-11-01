@@ -1,31 +1,65 @@
-# 🩷 Heart Painting using Python (Turtle Graphics)
+🎨 Hirst Painting using Python (Turtle Graphics)
 
-This project uses the **Turtle Graphics** module in Python to draw a beautiful heart shape on the screen.  
-It’s a fun beginner-friendly project to understand the basics of Python’s graphical drawing library.
+This project recreates the famous Damien Hirst dot painting style using Python’s Turtle Graphics module.
+It creates a stunning grid of randomly colored dots inspired by modern art — simple, creative, and fun to code!
 
----
+💡 Features
 
-## 💡 Features
-- Draws a smooth and symmetrical heart shape.
-- Uses vibrant colors to make the design visually appealing.
-- Great for learning turtle movement and curve drawing in Python.
-- Simple and beginner-friendly — just run and watch the magic happen! 💖
+Generates a 10x10 grid of colorful dots.
 
----
+Each dot’s color is randomly chosen from a predefined color palette.
 
-## 🧠 Concepts Covered
-- **Turtle Graphics** basics (forward, left, right, fill)
-- **Loops** for repeated actions
-- **Curves** using small incremental turns
-- **Color filling** in turtle
+Makes use of the Turtle module for graphics and Random for color variation.
 
----
+Visually appealing output that changes with every run.
 
-## 💻 How to Run
-1. Make sure Python 3 is installed on your system.
-2. Open your terminal or VS Code terminal.
-3. Run the following command:
+🧠 Concepts Covered
 
-```bash
-   python heart_painting.py
-```
+Loops and Iteration in Python
+
+Turtle Graphics basics (dot, forward, penup, setheading)
+
+RGB color mode using turtle.colormode(255)
+
+Random color selection using the random module
+
+Optional: Extracting colors from an image using the colorgram library
+
+⚙️ Requirements
+
+Python 3.x
+
+Modules:
+
+turtle (comes pre-installed with Python)
+
+colorgram.py (optional, for extracting colors from images)
+
+random (standard library)
+
+Install colorgram using:
+
+pip install colorgram.py
+
+💻 How to Run
+
+Clone this repository or download the Python file.
+
+Place an image named hirst.jpg in the same directory if you want to extract colors dynamically.
+
+Run the Python script using:
+
+python hirst_painting.py
+
+
+A window will open showing your generated Hirst-style dot painting.
+
+Click anywhere on the screen to exit once it’s done.
+
+❤️ Credits
+
+Inspired by Damien Hirst’s spot paintings.
+
+Built with Python Turtle Graphics.
+
+Created by Vaishnavi Kamboj ✨
