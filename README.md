@@ -5,13 +5,13 @@ It creates a stunning grid of randomly colored dots inspired by modern art — s
 
 💡 Features
 
-Generates a 10x10 grid of colorful dots.
+Generates a 10x10 grid of colorful dots
 
-Each dot’s color is randomly chosen from a predefined color palette.
+Each dot’s color is randomly chosen from a predefined color palette
 
-Makes use of the Turtle module for graphics and Random for color variation.
+Uses the Turtle module for graphics and Random for color variation
 
-Visually appealing output that changes with every run.
+Visually appealing output that changes with every run
 
 🧠 Concepts Covered
 
@@ -23,7 +23,7 @@ RGB color mode using turtle.colormode(255)
 
 Random color selection using the random module
 
-Optional: Extracting colors from an image using the colorgram library
+(Optional) Extracting colors from an image using the colorgram library
 
 ⚙️ Requirements
 
@@ -37,7 +37,7 @@ colorgram.py (optional, for extracting colors from images)
 
 random (standard library)
 
-Install colorgram using:
+To install colorgram, run:
 
 pip install colorgram.py
 
@@ -58,8 +58,8 @@ Click anywhere on the screen to exit once it’s done.
 
 ❤️ Credits
 
-Inspired by Damien Hirst’s spot paintings.
+Inspired by Damien Hirst’s spot paintings
 
-Built with Python Turtle Graphics.
+Built with Python Turtle Graphics
 
 Created by Vaishnavi Kamboj ✨
